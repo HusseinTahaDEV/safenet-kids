@@ -16,7 +16,7 @@ export default function NavigationDock() {
   const pathname = usePathname();
 
   return (
-    <div className="fixed bottom-6 left-0 right-0 flex justify-center z-50 px-4">
+    <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50">
       <motion.div 
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
